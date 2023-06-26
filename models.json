@@ -1,3 +1,54 @@
 [
-  
+  {
+    "name": "Base English",
+    "repo": "GitMylo/bark-voice-cloning",
+    "file": "quantifier_hubert_base_ls960_14.pth",
+    "language": "ENG",
+    "author": "https://github.com/gitmylo/",
+    "quant_version": 0,
+    "official": true,
+    "dlfilename": "tokenizer.pth",
+    "extra": {
+      "dataset": "https://huggingface.co/datasets/GitMylo/bark-semantic-training"
+    }
+  },
+  {
+    "name": "Large English",
+    "repo": "GitMylo/bark-voice-cloning",
+    "file": "quantifier_V1_hubert_base_ls960_23.pth",
+    "language": "ENG",
+    "author": "https://github.com/gitmylo/",
+    "quant_version": 1,
+    "official": true,
+    "dlfilename": "tokenizer_large.pth",
+    "extra": {
+      "dataset": "https://huggingface.co/datasets/GitMylo/bark-semantic-training"
+    }
+  },
+  {
+    "name": "Polish",
+    "repo": "Hobis/bark-voice-cloning-polish-HuBERT-quantizer",
+    "file": "polish-HuBERT-quantizer_8_epoch.pth",
+    "language": "POL",
+    "author": "https://github.com/HobisPL",
+    "quant_version": 1,
+    "official": false,
+    "dlfilename": "tokenizer_pol.pth",
+    "extra": {
+      "dataset": "https://huggingface.co/datasets/Hobis/bark-polish-semantic-wav-training"
+    }
+  },
+  {
+    "name": "German",
+    "repo": "CountFloyd/bark-voice-cloning-german-HuBERT-quantizer",
+    "file": "german-HuBERT-quantizer_14_epoch.pth",
+    "language": "GER",
+    "author": "https://github.com/C0untFloyd",
+    "quant_version": 1,
+    "official": false,
+    "dlfilename": "tokenizer_ger.pth",
+    "extra": {
+      "dataset": "https://huggingface.co/datasets/CountFloyd/bark-german-semantic-wav-training"
+    }
+  }
 ]

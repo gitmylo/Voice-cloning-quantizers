@@ -50,5 +50,18 @@
     "extra": {
       "dataset": "https://huggingface.co/datasets/CountFloyd/bark-german-semantic-wav-training"
     }
+  },
+  {
+  "name": "Spanish",
+  "repo": "Lancer1408/bark-es-tokenizer",
+  "file": "es_tokenizer.pth",
+  "language": "SPA",
+  "author": "https://github.com/MaxLanc",
+  "quant_version": 0,
+  "official": false,
+  "dlfilename": "tokenizer_spa.pth",
+  "extra": {
+    "dataset": "https://huggingface.co/datasets/Lancer1408/bark-spa-token-trainy"
   }
+}
 ]

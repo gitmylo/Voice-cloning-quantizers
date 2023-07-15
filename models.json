@@ -63,5 +63,18 @@
     "extra": {
       "dataset": "https://huggingface.co/datasets/Lancer1408/bark-spa-token-trainy"
     }
+  },
+    {
+    "name": "Portuguese",
+    "repo": "MadVoyager/bark-voice-cloning-portuguese-HuBERT-quantizer",
+    "file": "portuguese-HuBERT-quantizer_24_epoch.pth",
+    "language": "POR",
+    "author": "https://github.com/Subarasheese",
+    "quant_version": 1,
+    "official": false,
+    "dlfilename": "tokenizer_por.pth",
+    "extra": {
+      "dataset": "https://huggingface.co/datasets/MadVoyager/bark-portuguese-semantic-wav-training/"
+    }
   }
 ]

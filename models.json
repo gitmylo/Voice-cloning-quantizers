@@ -76,5 +76,18 @@
     "extra": {
       "dataset": "https://huggingface.co/datasets/MadVoyager/bark-portuguese-semantic-wav-training/"
     }
+  },
+  {
+    "name": "Japanese",
+    "repo": "junwchina/bark-voice-cloning-japanese-HuBERT-quantizer",
+    "file": "japanese-HuBERT-quantizer_24_epoch.pth",
+    "language": "JA",
+    "author": "https://github.com/junwchina",
+    "quant_version": 1,
+    "official": false,
+    "dlfilename": "tokenizer_ja.pth",
+    "extra": {
+      "dataset": "https://huggingface.co/datasets/junwchina/bark-japanese-semantic-wav-training"
+    }
   }
 ]

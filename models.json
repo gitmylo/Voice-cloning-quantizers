@@ -88,6 +88,18 @@
     "dlfilename": "tokenizer_ja.pth",
     "extra": {
       "dataset": "https://huggingface.co/datasets/junwchina/bark-japanese-semantic-wav-training"
+    },
+  {
+    "name": "Turkish",
+    "repo": "egeadam/bark-voice-cloning-turkish-HuBERT-quantizer",
+    "file": "turkish_model_epoch_14.pth",
+    "language": "TUR",
+    "author": "https://github.com/ege-adam",
+    "quant_version": 1,
+    "official": false,
+    "dlfilename": "tokenizer_tur.pth",
+    "extra": {
+      "dataset": ""
     }
   }
 ]

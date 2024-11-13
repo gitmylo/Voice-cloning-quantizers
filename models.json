@@ -99,5 +99,15 @@
     "quant_version": 1,
     "official": false,
     "dlfilename": "tokenizer_tur.pth"
+  },
+  {
+    "name": "Italian",
+    "repo": "gpwr/bark-it-tokenizer",
+    "file": "it_tokenizer.pth",
+    "language": "ITA",
+    "author": "https://github.com/gc-pwr",
+    "quant_version": 1,
+    "official": false,
+    "dlfilename": "it_tokenizer.pth"
   }
 ]
